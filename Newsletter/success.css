@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding:0;
+}
+  body{
+    min-height: 100vh;
+    position: relative;
+  }
+  header{
+    border-bottom: 1px solid rgba(119,127,190,.5);
+  }
+    .logo{
+      width:240px;
+      height:60px;
+      margin-left: 5px;
+    }
+    .row{
+      display:flex;
+      width:80%;
+      box-sizing: border-box;
+      justify-content: center;
+      margin:0 auto;
+      max-width:1400px;
+    }
+    .box{
+      width:50%;
+      margin-bottom: 100px;
+    }
+    .slika{
+      width:100%;
+    }
+    .seeMore{
+    display:flex;
+    justify-content:space-around;
+    height: 50px;	width: 200px;
+    border-radius: 25px;
+    background: linear-gradient(162.04deg, #817AC2 0%, #6684C8 100%);
+    box-shadow: 0 2px 44px 0 rgba(65,57,125,0.5);
+    border:0;
+    color: #FFFFFF;
+    font-family: "Avenir Next";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-left: 5px;
+    margin-top: 38px;
+    }
+    .seeMore-text{
+      margin-right: 30px;
+    }
+    .seeMore:hover{
+      cursor: pointer;
+    }
+    .arrowGo{
+     margin: 4px;
+     transform:rotate(-180deg);
+     margin-left: 20px;
+     margin-right: 0px;
+    }
+    h1{
+        color: #646465;
+        font-family: "Avenir Next";
+        font-size: 57px;
+        font-weight: bold;
+        line-height: 72px;
+        margin-top:150px;
+    }
+    h2{
+      color: #6C81C5;
+      font-family: "Gotham Bold";
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+    }
+
+.center{
+  display:flex;
+  justify-content: center;
+}
+.bold{
+  font-weight: bold;
+  color: #6C81C5;
+  text-decoration: underline;
+}
+.bold:hover{
+  cursor: pointer;
+}
+
+.copy{
+  	height: 22px;
+    width: 360px;
+    color: #FFFFFF;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    margin:0 auto;
+    padding:16px;
+}
+a{
+  text-decoration: none;
+}
+footer{
+  position:absolute;
+  bottom:0px;
+  width:100%;
+	height: 60px;
+	background: linear-gradient(162.04deg, #7E78BB 0%, #6684C8 100%);
+  box-shadow: 0 2px 74px -10px #B9A9D3;
+}
+@media screen and (max-width: 1000px){
+  .row{
+    flex-direction: column;
+  }
+  .box{
+    width: 100%;
+  }
+  .thanku{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  h1{
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .seeMore{
+    margin-top: 38px;
+  }
+}

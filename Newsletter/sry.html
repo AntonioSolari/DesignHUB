@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Confirmation page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="sry.css">
+  <style>
+  @font-face {
+ font-family:"Avenir Next";
+ src: url("../AvenirNext-Regular.otf");
+}
+
+@font-face {
+ font-family: "Avenir Next";
+ src: url("../AvenirNext-Bold.otf");
+ font-weight: bold;
+}
+@font-face {
+font-family: "Gotham";
+src: url("../Gotham Book Regular.otf");
+}
+::-webkit-input-placeholder {
+  font-family: "Avenir Next";
+	font-size: 16px;
+  opacity: 0.5;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo "src="logoColor.svg">
+  </header>
+  <section class="row">
+    <div class="thanku box">
+      <h1>We're sorry to see<br> you go! :(</h1>
+      <p class="text">Unesite vašu email adresu da bi se odjavili s naše liste mailova: </p>
+      <form class="sub-form" action="https://designhubsplit.us19.list-manage.com/subscribe/post?u=7eb73c055a7dc6537c0478225&amp;id=f29a780ca3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
+        <button type="submit" name="SUBSCRIBE" class="sub-but"><p class="sub-text">Unubscribe</p></button>
+      </form>
+    </div>
+  </section>
+  <div class="unsub">
+    <a href="http://localhost:8080/page/file.html"><img class="arrowGo" src="../arrowGoColor.svg" ><span class="seeMore-text">Back home</span></a>
+  </div>
+  <footer>
+    <p class="copy">Copyright &copy DesignHUB Split</p>
+  </footer>
+</body>
+</html>

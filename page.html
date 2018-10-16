@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DesignHUB Split</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="kod.js"></script>
+  <style>
+  @font-face {
+ font-family:"Avenir Next";
+ src: url("AvenirNext-Regular.otf");
+}
+
+@font-face {
+ font-family: "Avenir Next";
+ src: url("AvenirNext-Bold.otf");
+ font-weight: bold;
+}
+@font-face {
+font-family: "Gotham";
+src: url("Gotham Book Regular.otf");
+}
+::-webkit-input-placeholder {
+  font-family: "Avenir Next";
+	font-size: 16px;
+  opacity: 0.5;
+}
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <nav>
+   </nav>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="cov1.jpg"></div>
+      <div class="swiper-slide"><img src="cov2.jpg"></div>
+      <div class="swiper-slide"><img src="cov3.jpg"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <div class="background">
+  <section class="row padding-inside" id="row-one">
+   <div class="box center" id="first">
+     <div class="pic">
+     <img src="slika.svg">
+   </div>
+   </div>
+   <div class="box" id="second">
+     <h1>ZAJEDNICA<br>DIZAJNERA</h1>
+     <h3 class="prvi">Our mission</h3>
+     <div class="column col1">
+
+       Želja nam je stvoriti zajednicu u kojoj ćemo moći slobodno diskutirati o
+       dizajnerskim temama, prezentirati svoje radove, zajedno stvarati ideje te
+       općenito potaknuti svijest o važnosti dizajna u svim sferama poslovanja.
+       <br><br>
+       Meetupi će biti koncipirani na već standardan način: predavanje + neformalno druženje.
+       U planu su također radionice i portfolio reviews kako bi ojačali splitsku
+       dizajnersku scenu - Suradnja, a ne rivalstvo!
+
+       Želja nam je stvoriti zajednicu u kojoj ćemo moći slobodno diskutirati o
+       dizajnerskim temama, prezentirati svoje radove, zajedno stvarati ideje te
+       općenito potaknuti svijest o važnosti dizajna u svim sferama poslovanja.
+       <br><br>
+       Meetupi će biti koncipirani na već standardan način: predavanje + neformalno druženje.
+       U planu su također radionice i portfolio reviews kako bi ojačali splitsku
+       dizajnersku scenu - Suradnja, a ne rivalstvo!
+
+   </div>
+ </div>
+ </section>
+ <section class="row">
+   <div class="box shadow white space" id="third">
+     <h2 class="drugi">Meetup <br><span id="sign">&</span> Workshops</h2>
+     <div class="column col2">
+       Želja nam je stvoriti zajednicu u kojoj ćemo moći slobodno diskutirati o
+       dizajnerskim temama, prezentirati svoje radove, zajedno stvarati ideje te
+       općenito potaknuti svijest o važnosti dizajna u svim sferama poslovanja.
+       <br><br>
+       Meetupi će biti koncipirani na već standardan način: predavanje + neformalno druženje.
+       U planu su također radionice i portfolio reviews kako bi ojačali splitsku
+       dizajnersku scenu - Suradnja, a ne rivalstvo!
+    </div>
+     <button class="seeMore">See more<img class="arrowGo" src="arrowGo.svg"></button>
+      </div>
+   <div class="box shadow paint" id="fourth">
+     <h2 class="treci">Design <br> Challenges</h2>
+     <div class="column col3">
+       Želja nam je stvoriti zajednicu u kojoj ćemo moći slobodno diskutirati o
+       dizajnerskim temama, prezentirati svoje radove, zajedno stvarati ideje te
+       općenito potaknuti svijest o važnosti dizajna u svim sferama poslovanja.
+       <br><br>
+       Meetupi će biti koncipirani na već standardan način: predavanje + neformalno druženje.
+       U planu su također radionice i portfolio reviews kako bi ojačali splitsku
+       dizajnersku scenu - Suradnja, a ne rivalstvo!
+    </div>
+     <button class="seeMore white">See more <img class="arrowGo" src="arrowGoColor.svg"></button>
+   </div>
+ </section>
+</div>
+  <section class="row sub-section">
+
+    <h3 class="sub">SUBSCRIBE</h3>
+      <p class="sub-info">& <b>get invitations</b> to our events</p>
+      <form class="sub-form" action="https://designhubsplit.us19.list-manage.com/subscribe/post?u=7eb73c055a7dc6537c0478225&amp;id=f29a780ca3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address">
+        <button type="submit" name="SUBSCRIBE" class="sub-but"><p class="sub-text">Subscribe</p><img class="send" src="send_Icon.svg"></button>
+      </form>
+  </section>
+ <footer>
+<p class="copy">Copyright &copy DesignHUB Split</p>
+ </footer>
+  <!-- Swiper JS -->
+  <script language="JavaScript" type="text/javascript" src="jquery-3.3.1.js"></script>
+  <script src="swiper.min.js"></script>
+
+
+  <!-- Initialize Swiper -->
+  <script>
+  var swiper = new Swiper('.swiper-container', {
+        centeredSlides: true,
+        effect:'fade',
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable:true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+  });
+  </script>
+</body>
+</html>
